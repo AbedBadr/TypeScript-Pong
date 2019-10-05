@@ -32,6 +32,8 @@ export class Player implements GameObject
 
     draw(ctx: CanvasRenderingContext2D): void {
         ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
+        // kun boldens farve.
+        //ctx.fillStyle = "#000";
     }
 
     onColliosion(other: GameObject): void {

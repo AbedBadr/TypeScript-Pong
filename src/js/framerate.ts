@@ -24,9 +24,8 @@ export class Framerate implements GameObject
 
 
     draw(ctx: CanvasRenderingContext2D): void {
-        ctx.fillStyle = "#ffffff";
-        ctx.fillText(""+Math.round(1000/this.time) + "fps", this.position.x, this.position.y);
-
+        ctx.fillStyle = "#00FFFF";
+        //ctx.fillText(""+Math.round(1000/this.time) + "fps", this.position.x, this.position.y);
     }
 
 }
